@@ -14,12 +14,12 @@ namespace exam01
             int n = Convert.ToInt32(Console.ReadLine());
             shape(n);
 
-            Console.WriteLine("Write your number ");
+            Console.WriteLine("Write your number to calculate its sum ");
             int num = Convert.ToInt32(Console.ReadLine());
             calculate(num);
             Console.ReadLine();
 
-            Console.WriteLine("write num to get a factorial for ");
+            Console.WriteLine("write num to get a factorial ");
             int number = Convert.ToInt32(Console.ReadLine());
             int resultFac = fac(number);
             Console.WriteLine("factoral result is {0}", resultFac);
