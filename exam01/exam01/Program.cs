@@ -19,7 +19,7 @@ namespace exam01
             calculate(num);
             Console.ReadLine();
 
-            Console.WriteLine("write num to get a factorial for it ");
+            Console.WriteLine("write num to get a factorial ");
             int number = Convert.ToInt32(Console.ReadLine());
             int resultFac = fac(number);
             Console.WriteLine("factoral result is {0}", resultFac);
